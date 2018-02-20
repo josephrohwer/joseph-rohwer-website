@@ -1,2 +1,2 @@
-# Joseph Rohwer's Website
+# Joseph Rohwer Website
 View the website here http://josephrohwer.com/
