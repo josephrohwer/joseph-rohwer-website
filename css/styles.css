@@ -1,57 +1,56 @@
 html {
-  background: url(../img/background-pic.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: 'Helvetica Neue', sans-serif;
+background:url(../img/background-pic.png) no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+font-family:'Helvetica Neue', sans-serif;
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+width:200px;
+height:200px;
+border-radius:50%;
 }
 
 .box {
-  width: 400px;
-  height: 450px;
-  background: rgba(0,0,0,0.4);
-  padding: 40px;
-  color: white;
-  margin: 0 auto;
-  margin-top: 140px;
-  text-align: center;
+width:400px;
+height:450px;
+background:rgba(0,0,0,0.4);
+color:#FFF;
+text-align:center;
+margin:140px auto 0;
+padding:40px;
 }
 
 h1 {
-  font-weight: 100;
-  letter-spacing: 6;
-  font-size: 40px;
+font-weight:100;
+letter-spacing:6px;
+font-size:40px;
 }
 
 .line-break {
-  width: 300px;
-  margin: 0 auto;
-  border-top: 1px solid white;
+width:300px;
+border-top:1px solid #FFF;
+margin:0 auto;
 }
 
 p {
-   font-weight: 200;
-   letter-spacing: 1;
+font-weight:200;
+letter-spacing:1px;
 }
 
-#gh_icon, #li_icon, #tw_icon {
-  font-size: 40px;
-    color: white;
-    transition: all .2s ease-in-out;
+#gh_icon,#li_icon,#tw_icon {
+font-size:40px;
+color:#FFF;
+transition:all .2s ease-in-out;
 }
 
-#li_icon, #tw_icon {
-  padding-left: 20px;
+#li_icon,#tw_icon {
+padding-left:20px;
 }
 
-#gh_icon:hover, #li_icon:hover, #tw_icon:hover {
-  color: LightGrey;
-  transform: scale(1.25);
+#gh_icon:hover,#li_icon:hover,#tw_icon:hover {
+color:#D3D3D3;
+transform:scale(1.25);
 }
